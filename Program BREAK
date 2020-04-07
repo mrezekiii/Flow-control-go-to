@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+// TUGAS PRAKTIKUM DIRUMAH (BREAK) 07/04/2020 MUHAMMAD REZEKI
+int main (){
+	/* 
+		JIKA ANGKA LEBIH BESAR DARI ANGKA 50 MAKA TIDAK AKAN DITAMPILKAN . HANYA SAMPAI ANGKA 50 SAHAJA
+	*/ 
+	cout << "Hanya akan menampilkan angka 50 dari 100 angka"<< endl;
+	for ( int i = 1 ; i <= 100 ; i++){
+	if ( i > 50 ) break;
+	cout << i << endl;
+	}
+
+return 0;
+}
