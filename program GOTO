@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+// TUGAS PRAKTIKUM DIRUMAH (GO TO) 7/04/2020 MUHAMMAD REZEKI
+int main (){
+	char jump = 'Z';
+	/*
+	JIKA DIMASUKAN INPUTAN DENGAN HURUF Y MAKA OUTPUT YANG AKAN DI TAMPILKAN AKAN MELOMPAT : AKU MELOMPAT
+	DAN APABILA INPUTAN DENGAN HURUF N MAKA OUTPUT YANG AKAN DITAMPILKAN TIDAK AKAN MELOMPAT : AKU TIDAK MELOMPAT
+	
+	*/
+	cout << "Masukan huruf Y untuk melompat"<< endl;
+	cout << "************************************"<< endl;
+	cout << "Masukan huruf N untuk tidak melompat"<< endl;
+	cin >> jump;
+	cout << endl;
+	//ini hanya pemanis
+	cout << "::"<< endl;
+	cout << "AKU (A)"<< endl;
+	if ( jump == 'Y' ) goto lompat;
+	//ini hanya pemanis
+	cout << "::"<< endl;
+	cout << "TIDAK (B)"<< endl;
+	lompat:
+	//ini hanya pemanis
+	cout << "::"<< endl;
+	cout << "MELOMPAT (C)"<< endl;
+	//ini hanya pemanis
+	cout << "::"<< endl;
+return 0;
+}
