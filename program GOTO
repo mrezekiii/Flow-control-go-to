@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// TUGAS PRAKTIKUM DIRUMAH (GO TO) 7/04/2020 MUHAMMAD REZEKI
+// TUGAS PRAKTIKUM DIRUMAH (GO TO) 07/04/2020 MUHAMMAD REZEKI
 int main (){
 	char jump = 'Z';
 	/*
